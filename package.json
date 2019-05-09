@@ -1,0 +1,30 @@
+{
+  "name": "@zach/cli",
+  "version": "0.0.1",
+  "description": "Command Line Interface",
+  "main": "src/index.js",
+  "bin": {
+    "@zach/compile": "bin/compile",
+    "compile": "bin/compile"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cli",
+    "compile"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.0",
+    "esm": "^3.2.22",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.3.1",
+    "path": "^0.12.7"
+  }
+}
