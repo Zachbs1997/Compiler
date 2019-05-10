@@ -21,7 +21,7 @@ export async function cli(args) {
             compiler(data);
         }
         else{
-            console.log("error reading file")
+            console.log("error reading file " + err);
         }
     });
 }
